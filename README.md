@@ -1,3 +1,3 @@
 # Sistemas Distribuídos
 
-## Reposítório para as atividades da disciplina de Sistemas Distribuídos da UFG
+## Repositório para as atividades da disciplina de Sistemas Distribuídos da UFG
