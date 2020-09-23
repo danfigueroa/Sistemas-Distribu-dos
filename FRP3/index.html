@@ -1,11 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
+
     <script src= 'covid-brasil.js''></script>
+
+    <h1>Casos de Covid-19 no Brasil</h1>
+
+    <h3>Digite a unidade federativa (UF) que você quer recolher os dados: 
+        <input id="userUf" placeholder="Digite aqui">
+        <button id="btn" onclick="covid()">Consultar</button>
+    </h3>
+
+    <p>
+        Estado: <span id="uf"></span><br/>
+        Casos: <span id="cases"></span><br/>
+        Mortes: <span id="deaths"></span><br/>
+        Suspeitos: <span id="suspects"></span><br/>
+        Recusados: <span id="refuses"></span><br/>
+        Data: <span id="datetime"></span><br/>
+    </p>
+
 </body>
 </html>
